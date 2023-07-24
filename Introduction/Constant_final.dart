@@ -11,9 +11,7 @@ const int constVariable = 20;
 // Unlike 'final' a 'const' varaible is a compile-time constant
 // and its value cannot be changed once set.
 
-// Example3: Constant Expression
-const int constantExpression = finalVariable +constVariable;
-// here , we are creating  a new constant variable using the 'const' keyword.
+
 
 // Example 4: Using 'final' with non-primitive types
 final List<int> finalList = [1,2,3];
