@@ -1,0 +1,15 @@
+Dart is a programming language developed by google . It was first introduced in 
+2011 and has since gained popularity for its use in various application domains
+, paticularly in the web and mobile development . 
+
+Key feature of Dart include: 
+1) Object-oriented 
+2) Strongly typed: Dart is statically typed langauge , meaning that variable types are declared explicity at compile time.This helps catch type- related errors early in the development process 
+
+3) Cross-platform Support : 
+
+4)Garbage collection: Dart includes automatic memory management through garbage collection , which helps manage memory allocation and deallocation, reducing the burden on developers to handle memory explictly.
+
+5) Open Source: 
+
+Due to its association with the flutter framework, dart has gained significant popularity among developers interested in cross- platform mobile app development , as it allows them to build gigh performance and visually appealing aplications with a single codebase that runs on both ios and android devices. However , Dart can also be used independently for other types of application and projects.

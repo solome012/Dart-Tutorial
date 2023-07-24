@@ -1,0 +1,25 @@
+The Dart language enforces sound null safety.
+
+Null safety prevents an error that results from unintentional
+ access of variables set to null. The error is called a null dereference
+  error. A null dereference error occurs when you access a property or
+   call a method on an expression that evaluates to null. An exception
+    to this rule is when null supports the property or method, 
+    like toString() or hashCode. With null safety, the Dart compiler
+     detects these potential errors at compile time.
+
+For example, say you want to find the absolute value of an 
+int variable i. If i is null, calling i.abs() causes a null
+ dereference error. In other languages, trying this could lead
+  to a runtime error, but Dart’s compiler prohibits these actions.
+   Therefore, Dart apps can’t cause runtime errors.
+
+
+  In dart , null safety is a feature that ensures variables are explicitly
+  marked as either nullable or non-nullable . It helps prevent
+  null pointer exception by making it clear which variable can
+   hold null valuees and which cannot.
+
+This is achieved thorugh the use of nullable ('Type?') and non-nullable ('Type')
+types. The dart compiler enforces strict null safety, reducing the risk of null
+related bugs and making code more reliable.
