@@ -1,0 +1,55 @@
+Use metadata to give additional information about your code. A metadata annotation begins with the character @, followed by either a reference to a compile-time constant (such as deprecated) or a call to a constant constructor.
+
+
+Three annotations are available to all Dart code: @Deprecated, @deprecated, and @override. For examples of using @override, see Extending a class. Here’s an example of using the @Deprecated annotation:
+
+class Television {
+  /// Use [turnOn] to turn the power on instead.
+  @Deprecated('Use turnOn instead')
+  void activate() {
+    turnOn();
+  }
+
+  /// Turns the TV's power on.
+  void turnOn() {...}
+  // ···
+}
+
+
+
+You can define your own metadata annotations. Here’s an example of defining a @Todo annotation that takes two arguments:
+
+Lets understand the metadata with the simple example : 
+ imagine you have a magical book with lots of stories inside. Each story has its own special tag, like "Adventure," "Mystery," or "Fantasy." These tags tell you something about the story, right? Well, in Dart, metadata is like those special tags for classes, functions, or variables.
+
+Let's take a simple example:
+
+Imagine you have a magical box. You can put different things inside this box, like toys, books, or snacks. Now, you want to add some special tags to each item to know what they are. For this, you use metadata!
+
+In Dart, you can use metadata by adding an "@" symbol followed by the name of the metadata, just like a special sticker. These stickers help Dart programmers understand more about the items in the magical box.
+
+Here's how it would look like in Dart code:
+
+dart
+Copy code
+@MagicalItem
+class Toy {
+  String name;
+  
+  Toy(this.name);
+}
+
+@MagicalItem
+class Book {
+  String title;
+  
+  Book(this.title);
+}
+
+@MagicalItem
+String snack = 'Chocolates';
+In this example, we used the @MagicalItem metadata sticker for the Toy class, the Book class, and also for the snack variable.
+
+Now, anyone who looks at this code can see those special stickers and knows that these are magical items! Just like the special tags on the stories in the book, metadata in Dart helps programmers understand and categorize the different parts of the code.
+
+So, metadata is like magical stickers that tell us something special about the things we put inside the magical box (our Dart code). It makes coding even more fun and organized! 🎉😊
