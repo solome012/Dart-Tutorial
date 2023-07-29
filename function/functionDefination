@@ -1,0 +1,8 @@
+In Dart, you can define a function using the void keyword
+ (if the function doesn't return a value) or by specifying
+  the return type if it does return a value
+
+  There are usually two types of the function in any promgramming language 
+  They are ; 
+  1) funciton with return type and
+  2) funtion with no return type
