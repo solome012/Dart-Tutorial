@@ -1,0 +1,20 @@
+What is libraries and import?
+=> Imagine you have a big box of toys at home, and you want to play with one specific toy. Instead of searching through the entire box, you ask your mom to hand you the toy you want. In programming, libraries and imports work in a similar way.
+
+=>Libraries in programming are like special boxes that hold different tools or functions (toys) that we can use to do various tasks in our programs. Each library has a specific purpose, such as helping us with math, working with dates, or even drawing graphics.
+
+=>Imports are like asking for a specific library (box) so we can use the tools (functions) inside it. When we import a library, we can access and use all the tools (functions) it contains in our code.
+
+Lets understand with a example :
+
+// In this example, we want to use some math functions from the 'dart:math' library.
+// So, we ask for the 'dart:math' library by using the 'import' keyword.
+import 'dart:math';
+
+void main() {
+  // Now we can use the tools (functions) from the 'dart:math' library.
+  // For example, we can use 'sqrt' to calculate the square root of a number.
+  double number = 25;
+  double squareRoot = sqrt(number);
+  print("The square root of $number is $squareRoot.");
+}
